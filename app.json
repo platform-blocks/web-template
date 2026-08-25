@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Platform Blocks Web",
+    "slug": "platform-blocks-web",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-audio"
+    ],
+    "platforms": [
+      "web"
+    ]
+  }
+}
