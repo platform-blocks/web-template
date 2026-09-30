@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Platform Blocks Web",
-    "slug": "platform-blocks-web",
-    "version": "1.0.0",
+    "name": "plocks Web",
+    "slug": "plocks-web",
+    "version": "0.1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,

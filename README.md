@@ -1,42 +1,40 @@
-# web-template
+<p ta="center">
+  <a href="https://plocks.dev/" rel="noopener" target="_blank"><img width="75" height="75" src="https://raw.githubusercontent.com/platform-blocks/plocks/HEAD/apps/docs/assets/favicon.png" alt="plocks logo"/></a>
+</p>
 
-Web-only starter for [Platform Blocks](https://platform-blocks.com) — a React Native Web single-page app built with Expo. Every component renders with the same API it has on iOS and Android, so your code stays portable if you ever go native.
+<h1 ta="center">plocks Web Template</h1>
 
-## Use this template
-
-Click **Use this template** on GitHub to create your own repository from it, or scaffold directly:
-
-```bash
-npx create-expo-app@latest my-app --template https://github.com/platform-blocks/web-template
-```
+<p ta="center">
+  A web-only <a href="https://plocks.dev">plocks</a> app built with <a href="https://expo.dev">Expo</a> and React Native Web. The components work the same on iOS and Android, so your code stays portable.
+</p>
 
 ## Get started
 
 ```bash
-npm install
+npx create-expo-app@latest my-app --template https://github.com/platform-blocks/web-template
+cd my-app
 npm run web
 ```
 
-Build for production:
+Then start editing [`App.tsx`](./App.tsx).
+
+Prefer GitHub? Click **Use this template**, clone your new repository, and run `npm install` before `npm run web`.
+
+## Build for production
 
 ```bash
 npx expo export --platform web
 ```
 
-The SPA lands in `dist/`, ready for any static host.
+The app is written to `dist/`, ready for any static host.
 
-## What's inside
+## What is plocks?
 
-- [`@platform-blocks/ui`](https://www.npmjs.com/package/@platform-blocks/ui) with all required peer dependencies installed
-- `PlatformBlocksProvider` wired up in [`App.tsx`](./App.tsx) — theming, dark mode (follows the OS setting), overlays all work out of the box
-- TypeScript in strict mode
+[plocks](https://plocks.dev) is an open-source UI component library for [React Native](https://reactnative.dev). You write your screens once and they run on iOS, Android, and the web, with light and dark themes and accessibility built in.
 
-## Learn more
+- [Browse 100+ UI components](https://plocks.dev/components) with live demos, from buttons and forms to navigation and overlays
+- [Explore 24 chart types](https://plocks.dev/charts) you can add with `@plocks/charts`
+- [See example screens](https://plocks.dev/examples) such as a dashboard, a login form, and a settings page
+- [Read the getting started guide](https://plocks.dev/getting-started) for installation steps and the other starter templates
 
-- [Getting started](https://platform-blocks.com/getting-started) — installation, provider, first component
-- [Components](https://platform-blocks.com/components) — every component with live demos
-- [universal-template](https://github.com/platform-blocks/universal-template) — native apps **plus** a statically rendered website from one codebase
-
-## License
-
-MIT
+Have a question or an idea? Come say hi on [Discord](https://discord.gg/kbHjwzgXbc), or star the project on [GitHub](https://github.com/platform-blocks/plocks).
